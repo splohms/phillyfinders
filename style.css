@@ -63,3 +63,21 @@ body {
         width: 100vw;
     }
 }
+
+#location-button:hover,
+#next-button:hover {
+  color: black;
+  background: white;
+}
+
+#location-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 1rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 10rem;
+  z-index: 1;
+}
